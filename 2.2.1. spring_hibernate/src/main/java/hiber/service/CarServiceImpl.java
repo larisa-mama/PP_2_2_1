@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class CarServiceImpl implements CarService{
-    @Autowired
+   // @Autowired
     private CarDao carDao;
 
     @Transactional
